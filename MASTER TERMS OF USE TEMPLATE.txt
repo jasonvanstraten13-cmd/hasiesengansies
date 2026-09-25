@@ -1,0 +1,111 @@
+MASTER TERMS OF USE TEMPLATE
+
+(Client Website, South Africa)
+
+Terms of Use
+Effective date: [YYYY-MM-DD]
+
+1. Acceptance of terms
+
+By accessing or using this website, you agree to these Terms of Use. If you do not agree, you must not use the website.
+
+2. Website ownership and operation
+
+This website is owned and operated by [WEBSITE OWNER LEGAL NAME].
+
+Technical design and development services were provided by Strat Studios, Pretoria, South Africa.
+
+Strat Studios is not the operator of the business promoted on this website.
+
+3. Purpose of the website
+
+This website provides general information about the Website Owner and enables visitors to submit inquiries. It does not facilitate online sales or payments.
+
+4. Intellectual property
+
+All content on this website, unless otherwise stated, is owned by or licensed to the Website Owner.
+
+You may view and use the content for personal, non-commercial purposes only. No reproduction, distribution, modification, or reuse is permitted without written consent.
+
+5. Acceptable use
+
+You may not:
+
+Use the website for unlawful purposes
+
+Attempt unauthorised access to systems or infrastructure
+
+Interfere with website functionality or security
+
+Submit false, misleading, or harmful information
+
+Introduce malicious software or automated scraping tools
+
+6. Contact forms
+
+By submitting a form, you:
+
+Confirm the accuracy of submitted information
+
+Acknowledge that submissions are for correspondence purposes
+
+Agree not to submit sensitive or confidential information
+
+Form submissions are processed using Formspark. Details are provided in the Privacy Policy.
+
+7. External links and embedded services
+
+This website may include links or embeds from third-party services including Google Maps, YouTube, and social media platforms.
+
+The Website Owner does not control these services and accepts no responsibility for their content or practices.
+
+8. No warranties
+
+This website is provided on an "as is" basis. No warranties are made regarding accuracy, completeness, or availability of content.
+
+Content may change without notice.
+
+9. Limitation of liability
+
+To the maximum extent permitted by South African law:
+
+The Website Owner is not liable for any loss or damage arising from use of this website
+
+This includes indirect, incidental, or consequential damages
+
+10. Strat Studios responsibility limitation
+
+Strat Studios:
+
+Is responsible only for technical design and build services
+
+Does not manage or control form submissions beyond technical backup access
+
+Does not respond to inquiries submitted through the website
+
+Is not responsible for data use, storage, or compliance decisions made by the Website Owner
+
+Is not liable for content approved or supplied by the Website Owner
+
+The Website Owner remains solely responsible for privacy compliance and communications.
+
+11. Indemnity (optional)
+
+Where applicable, users agree to indemnify the Website Owner against claims arising from misuse of the website.
+
+12. Termination
+
+Access to the website may be suspended or terminated at any time if misuse or risk is identified.
+
+13. Governing law
+
+These Terms are governed by the laws of the Republic of South Africa.
+
+14. Updates to terms
+
+Terms may be updated periodically. Continued use constitutes acceptance of updated terms.
+
+15. Contact
+
+Email: [CONTACT EMAIL]
+Address: [ADDRESS]

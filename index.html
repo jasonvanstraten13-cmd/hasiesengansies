@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hasies en Gansies is a gentle collection of thoughtful goods for little ones and the people who love them.">
+  <title>Hasies en Gansies | Little things, lovingly chosen</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .footer-credit{padding:10px 12px;border-radius:12px;gap:3px;box-shadow:0 6px 14px rgba(0,0,0,.16)}
+    .footer-credit__label{font-size:9px}
+    .footer-credit__brand{font-size:16px}
+    .products-section{padding:0 0 110px}
+    .product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .product-card{overflow:hidden;background:#fff;border:1px solid var(--line)}
+    .product-card img{display:block;width:100%;aspect-ratio:1/1.08;object-fit:cover}
+    .product-card__body{padding:22px 22px 24px}
+    .product-card__number{color:#b16f58;font-size:11px;font-weight:800;letter-spacing:.14em}
+    .product-card h3{margin:12px 0 8px;font:400 28px/1.05 var(--serif)}
+    .product-card p{margin:0;color:#52655e;font-size:13px}
+    .product-card .text-link{display:inline-block;margin-top:18px;font-size:12px}
+    .image-rail{display:grid;grid-template-columns:1.3fr .8fr .8fr;gap:12px;margin-top:70px}
+    .image-rail img{display:block;width:100%;height:270px;object-fit:cover}
+    .image-rail img:first-child{height:340px}
+    @media(max-width:760px){.products-section{padding-bottom:75px}.product-grid{grid-template-columns:1fr}.product-card img{aspect-ratio:1.35/1}.image-rail{grid-template-columns:1fr 1fr;margin-top:45px}.image-rail img,.image-rail img:first-child{height:180px}.image-rail img:first-child{grid-column:1/-1;height:240px}}
+  </style>
+</head>
+<body>
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="Hasies en Gansies home"><span class="brand-mark">H<span>&</span>G</span><span>Hasies en Gansies</span></a>
+    <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav" data-menu-toggle><span></span><span></span></button>
+    <nav id="site-nav" class="site-nav" data-nav aria-label="Main navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="about.html">Our story</a>
+      <a href="shop/">Shop</a>
+      <a href="contact.html">Get in touch</a>
+      <a class="nav-cta" href="contact.html">Start a conversation <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Small joys, thoughtfully gathered</p>
+        <h1>Made for the <em>soft</em> parts of life.</h1>
+        <p class="hero-text">Hasies en Gansies brings together sweet, practical and memorable things for little ones, with a little extra care in every detail.</p>
+        <div class="button-row"><a class="button button-dark" href="contact.html">Say hello <span aria-hidden="true">↗</span></a><a class="text-link" href="about.html">Meet Hasies en Gansies <span aria-hidden="true">→</span></a></div>
+      </div>
+      <div class="hero-art reveal reveal-delay" aria-label="A sunlit arrangement of soft, natural children's goods">
+        <img src="https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&w=1200&q=85" alt="Soft neutral children's clothing and toys arranged in a sunlit room">
+        <div class="art-note"><span class="note-dot"></span><span>Chosen with care<br><strong>for little lives</strong></span></div>
+      </div>
+    </section>
+
+    <section class="intro-band">
+      <div class="section-shell intro-grid">
+        <p class="eyebrow">The Hasies en Gansies feeling</p>
+        <h2>A softer way to find something special.</h2>
+        <p>From everyday essentials to gifts worth keeping, we look for pieces that feel good, work beautifully and bring a bit of wonder along with them.</p>
+      </div>
+    </section>
+
+    <section class="section-shell values-section">
+      <div class="section-heading"><div><p class="eyebrow">What matters here</p><h2>Good things have a feeling.</h2></div><span class="section-index">01 — 03</span></div>
+      <div class="value-grid">
+        <article class="value-card"><span class="line-icon">01</span><h3>Thoughtful</h3><p>Every detail earns its place. Useful, beautiful and never overdone.</p></article>
+        <article class="value-card"><span class="line-icon">02</span><h3>Gentle</h3><p>Soft textures, calm colours and a considered pace for growing families.</p></article>
+        <article class="value-card"><span class="line-icon">03</span><h3>Personal</h3><p>Real conversations and recommendations shaped around your little one.</p></article>
+      </div>
+    </section>
+
+    <section class="section-shell products-section">
+      <div class="section-heading"><div><p class="eyebrow">Made for little rituals</p><h2>Meet the first<br><em>three favourites.</em></h2></div><span class="section-index">02 — 03</span></div>
+      <div class="product-grid">
+        <article class="product-card"><img src="shop/assets/blossom-chain.svg" alt="Colourful handmade dummy chain accessory for a baby"><div class="product-card__body"><span class="product-card__number">01 / EVERYDAY ESSENTIAL</span><h3>Dummy Chains</h3><p>Sweet, practical little chains to keep treasured dummies close and easy to find.</p><a class="text-link" href="shop/?category=Dummy%20Chains">Shop dummy chains <span aria-hidden="true">→</span></a></div></article>
+        <article class="product-card"><img src="shop/assets/bibs-sage.svg" alt="BIBS dummy in a calm neutral setting"><div class="product-card__body"><span class="product-card__number">02 / DAILY COMFORT</span><h3>BIBS Dummies</h3><p>Comforting BIBS dummies chosen for tiny mouths, busy days and peaceful pauses.</p><a class="text-link" href="shop/?category=BIBS%20Dummies">Shop BIBS dummies <span aria-hidden="true">→</span></a></div></article>
+        <article class="product-card"><img src="shop/assets/bunny-toy.svg" alt="Soft customised baby toy ready to be personalised"><div class="product-card__body"><span class="product-card__number">03 / MADE JUST FOR YOU</span><h3>Bespoke Customised Baby Toys</h3><p>Customised baby toys made to become keepsakes, with thoughtful details chosen together.</p><a class="text-link" href="shop/?category=Bespoke%20Customised%20Baby%20Toys">Shop bespoke toys <span aria-hidden="true">→</span></a></div></article>
+      </div>
+      <div class="image-rail" aria-label="A closer look at the Hasies en Gansies world"><img src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=1200&q=85" alt="Child playing with a soft toy"><img src="https://images.unsplash.com/photo-1607453998774-d533f65dac99?auto=format&fit=crop&w=800&q=85" alt="Small handmade baby gift details"><img src="shop/assets/goose-toy.svg" alt="Soft goose toy from the bespoke collection"></div>
+    </section>
+
+    <section class="image-band section-shell"><div><p class="eyebrow">A little invitation</p><h2>Come find your<br><em>happy little thing.</em></h2><a class="button button-light" href="contact.html">Let's chat <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="site-footer"><div class="footer-grid section-shell"><div><a class="brand brand-footer" href="index.html"><span class="brand-mark">H<span>&</span>G</span><span>Hasies en Gansies</span></a><p>Little things, lovingly chosen.</p></div><div><p class="footer-label">Explore</p><a href="about.html">Our story</a><a href="contact.html">Contact</a></div><div><p class="footer-label">Important</p><a href="privacy-policy.html">Privacy policy</a><a href="terms-policy.html">Terms of use</a></div><a class="footer-credit" href="https://stratstudios.co.za" target="_blank" rel="noopener noreferrer" aria-label="Designed by StratStudios (opens in a new tab)"><span class="footer-credit__label">Designed by</span><span class="footer-credit__brand">StratStudios</span></a></div><div class="footer-bottom section-shell"><span>© <span data-year></span> Hasies en Gansies</span><span>Made with care in South Africa</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

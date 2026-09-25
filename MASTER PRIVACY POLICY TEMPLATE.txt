@@ -1,0 +1,215 @@
+MASTER PRIVACY POLICY TEMPLATE
+
+(Client Website, South Africa, POPIA aligned)
+
+Privacy Policy
+Last updated: [YYYY-MM-DD]
+
+1. Responsible party (POPIA terminology)
+
+This website is owned and operated by [WEBSITE OWNER LEGAL NAME] ("Website Owner", "we", "us", "our").
+
+Legal name: [WEBSITE OWNER LEGAL NAME]
+
+Registration number: [IF APPLICABLE]
+
+Registered address: [ADDRESS]
+
+General contact email: [CONTACT EMAIL]
+
+Privacy contact email: [PRIVACY EMAIL]
+
+For purposes of the Protection of Personal Information Act, 4 of 2013 (POPIA), the Website Owner is the Responsible Party.
+
+2. Role of Strat Studios
+
+This website was designed and built by Strat Studios, based in Pretoria, South Africa.
+
+Strat Studios acts solely as a technical service provider / operator as defined under POPIA. Strat Studios:
+
+Does not determine the purpose for which personal information is collected
+
+Does not use personal information for its own purposes
+
+Does not act as the Responsible Party
+
+The Website Owner remains fully responsible for all personal information collected through this website.
+
+3. Scope of this policy
+
+This policy applies to:
+
+Visitors to this website
+
+Individuals who submit information via website contact forms
+
+This policy does not apply to third-party websites or platforms linked or embedded on this website.
+
+4. Personal information collected
+
+The website collects only information voluntarily submitted via contact forms, which may include:
+
+Name
+
+Email address
+
+Phone number
+
+Company name (if provided)
+
+Message content and any information you choose to include
+
+No payment information is collected.
+No sensitive personal information is intentionally collected.
+
+5. How information is collected
+
+Personal information is collected when you:
+
+Complete and submit a contact form on the website
+
+No automated profiling or decision-making takes place.
+
+6. Form processing and Formspark
+
+All contact forms on this website are processed using Formspark as a form backend service.
+
+Process flow:
+
+Form submissions are transmitted to Formspark
+
+Formspark emails the submission directly to the Website Owner’s designated email address
+
+The Website Owner accesses and manages submissions exclusively through email
+
+Access controls
+
+Website Owners do not have direct access to the Formspark dashboard
+
+Strat Studios may access Formspark only for backup or recovery purposes if form submission emails are lost
+
+Strat Studios does not routinely access, monitor, or use form submissions
+
+Formspark acts as an operator providing technical delivery of submissions.
+
+7. Purpose of processing
+
+Personal information is used strictly to:
+
+Respond to inquiries
+
+Communicate regarding requested services or information
+
+Maintain basic correspondence records
+
+Personal information is not:
+
+Sold
+
+Rented
+
+Used for advertising
+
+Used for unrelated marketing
+
+8. Lawful basis for processing (POPIA)
+
+Processing is carried out in accordance with POPIA on the basis of:
+
+Voluntary submission of information by the data subject
+
+Legitimate business interest in responding to inquiries
+
+Necessity for communication requested by the data subject
+
+9. Disclosure of information
+
+Personal information may be disclosed only to:
+
+Email service providers used by the Website Owner
+
+Website hosting and infrastructure providers
+
+Formspark as the form processing service
+
+Strat Studios, only where technically necessary and under instruction
+
+Regulatory or legal authorities if required by law
+
+No disclosure is made for commercial resale or unrelated purposes.
+
+10. International processing
+
+Formspark and certain infrastructure providers may process data outside South Africa. Where cross-border processing occurs, reasonable safeguards are applied to ensure protection consistent with POPIA.
+
+11. Retention of information
+
+Form submissions are retained by the Website Owner for operational correspondence
+
+Manual deletion of stored submissions occurs annually
+
+Information may be deleted earlier upon reasonable request, where practicable
+
+12. Security safeguards
+
+Reasonable technical and organisational safeguards are implemented, including:
+
+Restricted access to email accounts
+
+Secure credentials
+
+Limitation of access to authorised personnel only
+
+Visitors should not submit confidential or sensitive information via website forms.
+
+13. Cookies and tracking
+
+This website:
+
+Does not use analytics cookies
+
+Does not use advertising or tracking cookies
+
+Does not set cookies beyond those required by embedded third-party services
+
+Embedded services such as Google Maps or YouTube may set their own cookies, subject to their respective privacy policies.
+
+14. Third-party services and embeds
+
+This website may include:
+
+Google Maps
+
+YouTube videos
+
+Social media profile links or redirects
+
+These services operate independently and have their own privacy practices. The Website Owner is not responsible for third-party data handling.
+
+15. Children and age suitability
+
+This website is not directed specifically at children.
+Content is intended to be suitable for a PG-13 general audience.
+
+No personal information is knowingly collected from children.
+
+16. Data subject rights under POPIA
+
+Subject to POPIA, you may request:
+
+Access to your personal information
+
+Correction or deletion of inaccurate information
+
+Information about how your data is processed
+
+Requests may be submitted to: [PRIVACY EMAIL]
+
+17. Updates to this policy
+
+This policy may be updated periodically. The last updated date reflects the current version.
+
+18. Contact details
+
+Privacy enquiries: [PRIVACY EMAIL]
+Postal address: [ADDRESS]
