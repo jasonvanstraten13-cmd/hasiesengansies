@@ -1,9 +1,0 @@
-# Deploy this folder as its own Netlify site: set Base directory to "say-and-play-space".
-[build]
-  publish = "."
-
-[[redirects]]
-  from = "/*.md"
-  to = "/404"
-  status = 404
-  force = true
