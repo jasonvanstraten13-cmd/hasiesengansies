@@ -32,6 +32,8 @@ runs the order, pricing and webhook-signature tests.
 4. Yoco sends a signed `payment.succeeded` webhook to `netlify/functions/yoco-webhook.mjs` (`/api/yoco-webhook`). This checks the signature and emails the order to the shop and a confirmation to the customer, using Resend.
 5. If a paid order can't be matched to its details, the shop still gets an alert email so the order can be checked in the Yoco portal.
 
+The contact form posts to `/api/contact` (`netlify/functions/contact.mjs`), which emails the message to `ORDER_EMAIL_TO` with the same Resend setup.
+
 Shared code lives in `netlify/lib/`.
 
 ## Going live
@@ -54,4 +56,7 @@ Shared code lives in `netlify/lib/`.
 - Stock isn't tracked automatically. Update `inStock` in `products.json` when items sell out.
 - Orders are recorded in Yoco and in the emails. There is no separate order database.
 - If Yoco retries a webhook, the same order email can arrive twice. Check the order reference.
-- The contact form still needs a real Formspark ID in `contact.html` (`REPLACE_WITH_FORMSPARK_ID`).
+
+## Project documents
+
+Brand guides, legal templates and agency prompts live in `docs/`. That folder is blocked from the public site by `netlify.toml`.

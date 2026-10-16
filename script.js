@@ -109,19 +109,22 @@ document.addEventListener('DOMContentLoaded',function(){
           valid=false;
         }
       });
+      event.preventDefault();
+      var note=document.getElementById('formNote');
       if(!valid){
-        event.preventDefault();
-        document.getElementById('formNote').textContent='Please check the required fields and try again.';
-      }else{
-        if(phone&&whatsapp){
-          whatsapp.value=formatWhatsApp(phone.value);
-        }
-        var button=form.querySelector('button[type="submit"]');
-        if(button){
-          button.disabled=true;
-          button.textContent='Sending...';
-        }
+        note.textContent='Please check the required fields and try again.';
+        return;
       }
+      note.textContent='';
+      var button=form.querySelector('button[type="submit"]');
+      var label=button.innerHTML;
+      button.disabled=true;
+      button.textContent='Sending...';
+      var payload={name:form.elements.name.value,email:form.elements.email.value,phone:form.elements.phone.value,whatsapp:formatWhatsApp(form.elements.phone.value),message:form.elements.comments.value,company:form.elements.company.value};
+      fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)})
+        .then(function(response){return response.json().catch(function(){return {};}).then(function(body){if(!response.ok){throw new Error(body.error||'Your message could not be sent. Please try again.');}});})
+        .then(function(){window.location.href='thank-you.html';})
+        .catch(function(error){note.textContent=error.message;button.disabled=false;button.innerHTML=label;});
     });
   }
 });

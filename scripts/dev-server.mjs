@@ -12,7 +12,8 @@ process.env.SITE_URL ||= `http://localhost:${port}`;
 
 const functions = {
   '/api/create-checkout': 'netlify/functions/create-checkout.mjs',
-  '/api/yoco-webhook': 'netlify/functions/yoco-webhook.mjs'
+  '/api/yoco-webhook': 'netlify/functions/yoco-webhook.mjs',
+  '/api/contact': 'netlify/functions/contact.mjs'
 };
 const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json', '.svg': 'image/svg+xml', '.jpg': 'image/jpeg', '.png': 'image/png', '.webp': 'image/webp', '.xml': 'application/xml', '.txt': 'text/plain' };
 
