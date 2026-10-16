@@ -18,3 +18,10 @@
   status = 404
   force = true
 
+
+# The Say and Play Space is deployed as its own site (base directory say-and-play-space).
+[[redirects]]
+  from = "/say-and-play-space/*"
+  to = "/404"
+  status = 404
+  force = true
