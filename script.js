@@ -92,6 +92,9 @@ document.addEventListener('DOMContentLoaded',function(){
   var phone=document.getElementById('phone');
   var whatsapp=document.getElementById('whatsapp');
   if(phone&&whatsapp){['input','change'].forEach(function(eventName){phone.addEventListener(eventName,function(){whatsapp.value=formatWhatsApp(phone.value);});});}
+  var comments=document.getElementById('comments');
+  var requestedOrder=new URLSearchParams(window.location.search).get('order');
+  if(comments&&requestedOrder&&!comments.value){comments.value='I would like to order: '+requestedOrder.slice(0,1000);}
   var form=document.getElementById('contactForm');
   if(form){
     form.addEventListener('submit',function(event){

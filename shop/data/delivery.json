@@ -1,0 +1,32 @@
+{
+  "freeDeliveryThreshold": 100000,
+  "options": [
+    {
+      "id": "pudo",
+      "name": "PUDO locker-to-locker",
+      "description": "Collect from your nearest PUDO locker, usually 2-4 working days.",
+      "price": 6500,
+      "needsAddress": false,
+      "needsLocker": true,
+      "freeOverThreshold": true
+    },
+    {
+      "id": "courier",
+      "name": "Door-to-door courier",
+      "description": "Delivered to your door anywhere in South Africa, usually 2-5 working days.",
+      "price": 11000,
+      "needsAddress": true,
+      "needsLocker": false,
+      "freeOverThreshold": true
+    },
+    {
+      "id": "collect",
+      "name": "Collect by arrangement",
+      "description": "We will contact you to arrange a collection time.",
+      "price": 0,
+      "needsAddress": false,
+      "needsLocker": false,
+      "freeOverThreshold": false
+    }
+  ]
+}
